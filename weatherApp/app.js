@@ -40,7 +40,7 @@ function updateWeather(data) {
 
         if (data.weather[0].main == "Clouds") {
             weatherIcon.src = "images/clouds.png";
-            card.style.background = 'linear-gradient(135deg, #003973, #e5e5be)';
+            card.style.background = 'linear-gradient(135deg,rgb(66, 130, 186),rgb(16, 24, 65))';
         }
         else if (data.weather[0].main == "Clear") {
             weatherIcon.src = "images/clear.png";
