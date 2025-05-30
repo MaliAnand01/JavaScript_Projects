@@ -12,7 +12,7 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #ee0979, #ff6a00);
+    background: linear-gradient(135deg, #03f18e, #2f50b2);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -45,6 +45,9 @@ body{
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 60px;
     height: 60px;
     cursor: pointer;
@@ -104,4 +107,39 @@ body{
     margin-top: 10px;
     color: rgb(255, 255, 255);
     display: none;
+}
+
+
+@media screen and (max-width: 560px) {
+    .card{
+        width: 95%;
+        padding: 30px 20px;
+    }
+    .search input{
+        height: 40px;
+        width: 60%;
+        margin-right: 10px;
+    }
+    .search button{
+        width: 40px;
+        height: 40px;
+    }
+    .weather h1{
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    .weather h2{
+        font-size: 35px;
+    }
+    .details{
+        flex-direction: row;
+        align-items: center;
+    }
+    .details .col{
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
 }
