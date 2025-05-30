@@ -4,14 +4,14 @@ A simple and responsive weather application that displays current weather data f
 
 ## 🚀 Live Demo
 
-[Click here to view the Weather App](https://malianand01.github.io/JavaScript_Projects/weatherApp/)
+[Click here to view the Weather App](https://malianand01.github.io/JavaScript_Projects/weatherApp/index.html)
 
 ## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (Fetch API)
-- OpenWeatherMap API (or similar)
+- OpenWeatherMap API
 
 ## 📁 Project Structure
 
