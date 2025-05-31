@@ -1,0 +1,195 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+  --primary-bg-light: #4ECDC4;
+  --primary-bg-dark: #FF6B6B;
+  --dark-text: #060222;
+  --light-text: #ffffff;
+  --button-hover: #140d41;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    var(--primary-bg-dark),
+    var(--primary-bg-light)
+  );
+  color: var(--light-text);
+  padding: 10px;
+  display: flex;
+  justify-self: flex-start;
+  align-items: flex-start;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 600px;
+  margin-left: 10%;
+  margin-top: 10%;
+  padding: 20px;
+}
+
+.calculator h1 {
+  font-size: 50px;
+  text-align: left;
+}
+
+.calculator h1 #break {
+  display: block;
+  color: var(--dark-text);
+}
+
+.input-box {
+  margin: 40px 0;
+  padding: 35px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.input-box input {
+  flex: 1;
+  margin-right: 20px;
+  padding: 14px 20px;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  min-width: 150px;
+}
+
+.input-box button {
+  background: var(--dark-text);
+  color: var(--light-text);
+  border: 0;
+  outline: 0;
+  padding: 14px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.4s ease-in-out;
+  flex-shrink: 0;
+}
+
+.input-box button:hover {
+  background: var(--button-hover);
+}
+
+.input-box input::-webkit-calendar-picker-indicator {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  position: absolute;
+  background-position: calc(100% - 10px);
+  background-size: 30px;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 20px;
+}
+
+#result span {
+  font-weight: 600;
+  color: var(--dark-text);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .calculator {
+    margin-left: 0; 
+    margin-top: 5%; 
+    text-align: center;
+    padding: 15px; 
+    max-width: 90%;
+  }
+
+  .calculator h1 {
+    font-size: 36px; 
+    text-align: center;
+  }
+
+  .calculator h1 #break {
+    font-size: 35px;
+    display: block;
+  }
+
+  .input-box {
+    flex-direction: column; 
+    align-items: stretch ;
+    padding: 25px;
+  }
+
+  .input-box input {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 12px 15px;
+  }
+
+  .input-box button {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px 15px;
+  }
+
+  #result {
+    font-size: 18px; 
+    text-align: center;
+  }
+}
+
+/* @media (min-width: 769px) and (max-width: 1024px) {
+    .calculator {
+        margin-left: 5%;
+        margin-top: 10%;
+        max-width: 650px;
+    }
+
+    .calculator h1 {
+        font-size: 45px;
+    }
+
+    .input-box {
+        padding: 30px;
+    }
+
+    .input-box input {
+        font-size: 17px;
+        padding: 13px 18px;
+    }
+
+    .input-box button {
+        font-size: 17px;
+        padding: 13px 18px;
+    }
+
+    #result {
+        font-size: 19px;
+    }
+} */

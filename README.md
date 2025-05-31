@@ -59,4 +59,12 @@ A simple and intuitive Notes App built with HTML, CSS, and JavaScript. This proj
 
 ---
 
+## 📅 Age Calculator
+
+A handy age calculator that lets users enter their date of birth and instantly see their exact age in years, months, and days. Built with JavaScript, it features a user-friendly interface and accurate calculations.
+
+🔗 **Live Demo**: [Password Generator](https://malianand01.github.io/JavaScript_Projects/Age_Calculator/index.html)
+
+---
+
 📌 **More projects coming soon... Stay tuned!**
