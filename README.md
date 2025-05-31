@@ -34,7 +34,7 @@ A clean and responsive to-do list app where users can add, mark complete, and de
 
 ---
 
-## ✅ Secure Password Generator
+## 🔒 Secure Password Generator
 
 Generate strong, random passwords of 12 character length. This tool helps users create secure passwords to enhance online account safety. For copying password I used **clipboard api** and added a **toast message** function.
 
