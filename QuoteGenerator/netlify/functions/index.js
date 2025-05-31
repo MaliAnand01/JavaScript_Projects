@@ -1,29 +1,14 @@
-// netlify/functions/index.js
+// netlify/functions/index.js (Temporary for debugging)
 import express from 'express';
 import cors from 'cors';
-import fetch from 'node-fetch'; // Still using import
+// import fetch from 'node-fetch'; // Temporarily comment out fetch
 
 const app = express();
 app.use(cors());
 
-app.get('/get-quote', async (req, res) => { // This is your API endpoint
-    const zenQuotesApiUrl = 'https://zenquotes.io/api/random';
-
-    try {
-        const response = await fetch(zenQuotesApiUrl);
-
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
-        const data = await response.json();
-        res.json(data);
-    } catch (error) {
-        console.error('Error fetching quote from ZenQuotes:', error);
-        res.status(500).json({ error: 'Failed to fetch quote from external API.' });
-    }
+app.get('/get-quote', async (req, res) => {
+    console.log('Function received request - TEST.');
+    res.json([{ q: "Hello from Netlify Function!", a: "Debugger" }]);
 });
 
-// Netlify Functions automatically handle the server listening part.
-// We just need to export the Express app.
-export default app; // Export the app for Netlify
+export default app;
