@@ -1,0 +1,21 @@
+# netlify.toml (in your project root)
+
+[build]
+  # 'publish' specifies the directory containing your deployable frontend assets.
+  # Since your index.html, style.css, and script.js are in the root, we use "."
+  publish = "."
+  # 'command' is the build command Netlify will run.
+  # For a simple HTML/CSS/JS project, you might not have one, or you can use 'npm install'
+  # if you had frontend dependencies, but for this project, it's not strictly needed.
+  command = "echo 'No frontend build command required'" # Or leave empty if Netlify allows it
+
+[functions]
+  # 'directory' tells Netlify where to find your serverless functions.
+  # This should point to your 'netlify/functions' folder.
+  directory = "netlify/functions"
+
+  # If you are using ES Modules (import/export) in your function (index.js):
+  # You might need to specify the bundler and external modules for Node.js 16+
+  # Uncomment these lines if you used Option 1 (ES Modules) in the previous fix.
+  # node_bundler = "esbuild"
+  # external_node_modules = ["node-fetch", "express", "cors"] # List your dependencies
