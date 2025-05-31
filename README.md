@@ -42,4 +42,21 @@ Generate strong, random passwords of 12 character length. This tool helps users 
 
 ---
 
+## 📒 Notes App
+
+A simple and intuitive Notes App built with HTML, CSS, and JavaScript. This project allows users to create, edit, and delete notes efficiently with a clean and responsive design. It's ideal for quick note-taking and works seamlessly across all screen sizes—desktop, tablet, and mobile.
+
+## ✨ Features
+📝 Create Notes – Quickly jot down your thoughts or tasks.
+
+✏️ Edit Notes – Update your existing notes with ease.
+
+🗑️ Delete Notes – Remove notes you no longer need.
+
+📱 Responsive Design – Optimized for all screen sizes, from mobile phones to desktops.
+
+🔗 **Live Demo**: [Notes App](https://malianand01.github.io/JavaScript_Projects/NotesApp/index.html)
+
+---
+
 📌 **More projects coming soon... Stay tuned!**
