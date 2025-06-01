@@ -84,4 +84,12 @@ A simple and efficient web application that allows users to generate QR codes fr
 
 ---
 
+## 🔔 Toast Notification
+
+A lightweight and customizable Toast Notification component that displays brief messages to users with smooth animations and an icon for better visual feedback. Easily trigger notifications for success, error, invalid events. Built with vanilla JavaScript and CSS for seamless integration into any project.
+
+🔗 **Live Demo**: [Toast Notification](https://malianand01.github.io/JavaScript_Projects/Toast_Notification/index.html)
+
+---
+
 📌 **More projects coming soon... Stay tuned!**
