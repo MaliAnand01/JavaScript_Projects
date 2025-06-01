@@ -67,4 +67,21 @@ A handy age calculator that lets users enter their date of birth and instantly s
 
 ---
 
+## 📱 QR Code Generator
+
+A simple and efficient web application that allows users to generate QR codes from any text or URL input. This project leverages the power of the **Tailwind CSS** framework for a modern and responsive design, and the `jsQR` library for robust QR code generation.
+
+### 💻 Tech Stack
+
+- **HTML5**
+- **JavaScript (ES6)**
+- **Tailwind CSS**
+- **jsQR library**
+
+### 🌐 Live Demo
+
+🔗 **Live Demo**: [QR Code Generator](https://malianand01.github.io/JavaScript_Projects/QR_code_generator/index.html)
+
+---
+
 📌 **More projects coming soon... Stay tuned!**
