@@ -91,7 +91,7 @@ A lightweight and customizable Toast Notification component that displays brief 
 ---
 
 
-# 🎶 Vibe Box | Music Player
+## 🎶 Vibe Box | Music Player
 
 Experience music seamlessly with Vibe Box, a sleek and intuitive player built with vanilla JavaScript and CSS. Enjoy essential playback controls, a smart dark mode, and a responsive design.
 
