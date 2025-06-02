@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6ed88aba6b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/headphones.png" type="image/x-icon" />
+    <title>Vibe Box |  Focuses on the feeling and mood of the music</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="player">
+        <nav>
+          <div class="circle" id="backBtn">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+           <div class="circle" id="themeToggleBtn">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+          </div>
+          <div class="playlist-container">
+            <div class="circle" id="playlistBtn">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="playlist-dropdown" id="playlistDropdown">
+              <div class="playlist-header">Top Hits</div>
+              <div id="songList"></div>
+            </div>
+          </div>
+         
+        </nav>
+
+        <img
+          src="img/default.png"
+          class="song-img"
+          alt="Album Art"
+          id="songImage"
+        />
+        <h1 id="songTitle">Select a Song</h1>
+        <p id="artistName">Unknown Artist</p>
+        <div class="loading" id="loadingText">Loading...</div>
+
+        <audio id="song">
+          <source src="" type="audio/mpeg" />
+        </audio>
+
+        <input type="range" value="0" id="progress-bar" />
+        <div class="time-info">
+          <span id="currentTime">0:00</span>
+          <span id="duration">0:00</span>
+        </div>
+
+        <div class="controls">
+          <div id="prevBtn">
+            <i class="fa-solid fa-backward-step"></i>
+          </div>
+          <div id="playBtn">
+            <i class="fa-solid fa-play" id="ctrlIcon"></i>
+          </div>
+          <div id="nextBtn">
+            <i class="fa-solid fa-forward-step"></i>
+          </div>
+        </div>
+
+        <div class="volume-control">
+          <i
+            class="fa-solid fa-volume-down"
+          ></i>
+          <input
+            type="range"
+            class="volume-slider"
+            id="volumeSlider"
+            min="0"
+            max="100"
+            value="50"
+          />
+          <i
+            class="fa-solid fa-volume-up"
+          ></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

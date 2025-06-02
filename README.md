@@ -78,8 +78,6 @@ A simple and efficient web application that allows users to generate QR codes fr
 - **Tailwind CSS**
 - **jsQR library**
 
-### 🌐 Live Demo
-
 🔗 **Live Demo**: [QR Code Generator](https://malianand01.github.io/JavaScript_Projects/QR_code_generator/index.html)
 
 ---
@@ -89,6 +87,29 @@ A simple and efficient web application that allows users to generate QR codes fr
 A lightweight and customizable Toast Notification component that displays brief messages to users with smooth animations and an icon for better visual feedback. Easily trigger notifications for success, error, invalid events. Built with vanilla JavaScript and CSS for seamless integration into any project.
 
 🔗 **Live Demo**: [Toast Notification](https://malianand01.github.io/JavaScript_Projects/Toast_Notification/index.html)
+
+---
+
+
+# 🎶 Vibe Box | Music Player
+
+Experience music seamlessly with Vibe Box, a sleek and intuitive player built with vanilla JavaScript and CSS. Enjoy essential playback controls, a smart dark mode, and a responsive design.
+
+🔗 **Live Demo**: [Vibe Box | Music Player](https://malianand01.github.io/JavaScript_Projects/Music_Player/index.html)
+
+### ✨ Features
+
+* **Complete Playback:** Play, pause, skip tracks, and adjust volume.
+* **Interactive Playlist:** Easily browse and select songs from a local playlist.
+* **Dynamic Progress:** Visual progress bar and real-time duration display.
+* **Smart Theming:** Automatic dark mode based on system preference, with a manual toggle and local storage persistence.
+* **Keyboard Shortcuts:** Control playback with simple key presses.
+
+### 🛠️ Tech Stack
+
+* **HTML, CSS, JavaScript (Vanilla):** Core web technologies.
+* **Font Awesome:** For icons.
+* **Cloudinary:** Cloud service for audio file hosting.
 
 ---
 
