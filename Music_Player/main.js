@@ -38,7 +38,7 @@ const playlist = [
         id: 6,
         name: "As It Was",
         artist: "Harry Styles",
-        image: "img/as_it_was.png",
+        image: "img/As_It_Was.png",
         audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895499/ujb5rk1uxxyhthfcfvke.mp3"
     },
     {
