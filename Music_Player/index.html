@@ -9,7 +9,7 @@
     ></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="img/headphones.png" type="image/x-icon" />
-    <title>Vibe Box |  Focuses on the feeling and mood of the music</title>
+    <title>Vibe Box | Focuses on the feeling and mood of the music</title>
   </head>
   <body>
     <div class="container">
@@ -18,8 +18,8 @@
           <div class="circle" id="backBtn">
             <i class="fa-solid fa-angle-left"></i>
           </div>
-           <div class="circle" id="themeToggleBtn">
-          <i class="fa-solid fa-moon" id="themeIcon"></i>
+          <div class="circle" id="themeToggleBtn">
+            <i class="fa-solid fa-moon" id="themeIcon"></i>
           </div>
           <div class="playlist-container">
             <div class="circle" id="playlistBtn">
@@ -30,15 +30,17 @@
               <div id="songList"></div>
             </div>
           </div>
-         
         </nav>
 
-        <img
-          src="img/default.png"
-          class="song-img"
-          alt="Album Art"
-          id="songImage"
-        />
+        <div class="album-art-container">
+            <img class="rotating-disc" src="img/disc.png" alt="">
+          <img
+            src="img/default.png"
+            class="song-img"
+            alt="Album Art"
+            id="songImage"
+          />
+        </div>
         <h1 id="songTitle">Select a Song</h1>
         <p id="artistName">Unknown Artist</p>
         <div class="loading" id="loadingText">Loading...</div>
@@ -66,9 +68,7 @@
         </div>
 
         <div class="volume-control">
-          <i
-            class="fa-solid fa-volume-down"
-          ></i>
+          <i class="fa-solid fa-volume-down"></i>
           <input
             type="range"
             class="volume-slider"
@@ -77,9 +77,7 @@
             max="100"
             value="50"
           />
-          <i
-            class="fa-solid fa-volume-up"
-          ></i>
+          <i class="fa-solid fa-volume-up"></i>
         </div>
       </div>
     </div>

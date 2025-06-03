@@ -264,35 +264,51 @@ function formatTime(seconds) {
 }
 
 function playPause() {
+    const rotatingDisc = document.querySelector('.rotating-disc'); // Get reference to the disc
+
     if (isPlaying) {
         song.pause();
         ctrlIcon.classList.remove('fa-pause');
         ctrlIcon.classList.add('fa-play');
         songImage.classList.remove('playing');
+        if (rotatingDisc) { // Check if disc exists before modifying
+            rotatingDisc.classList.remove('popped-out'); // Hide disc
+            rotatingDisc.style.animationPlayState = 'paused'; // Pause rotation
+        }
         isPlaying = false;
     } else {
         const playPromise = song.play();
         if (playPromise !== undefined) {
-            playPromise.then(() => {
-                ctrlIcon.classList.add('fa-pause');
-                ctrlIcon.classList.remove('fa-play');
-                songImage.classList.add('playing');
-                isPlaying = true;
-                if (loadingText) {
-                    loadingText.classList.remove('show');
-                }
-            }).catch(error => {
-                console.error('Error playing audio:', error);
-                if (loadingText) {
-                    loadingText.textContent = 'Playback error: ' + error.message;
-                    loadingText.classList.add('show');
-                    setTimeout(() => loadingText.classList.remove('show'), 3000);
-                }
-                ctrlIcon.classList.remove('fa-pause');
-                ctrlIcon.classList.add('fa-play');
-                songImage.classList.remove('playing');
-                isPlaying = false;
-            });
+            playPromise
+                .then(() => {
+                    ctrlIcon.classList.add('fa-pause');
+                    ctrlIcon.classList.remove('fa-play');
+                    songImage.classList.add('playing');
+                    if (rotatingDisc) { // Check if disc exists before modifying
+                        rotatingDisc.classList.add('popped-out'); // Show disc
+                        rotatingDisc.style.animationPlayState = 'running'; // Start rotation
+                    }
+                    isPlaying = true;
+                    if (loadingText) {
+                        loadingText.classList.remove('show');
+                    }
+                })
+                .catch((error) => {
+                    console.error('Error playing audio:', error);
+                    if (loadingText) {
+                        loadingText.textContent = 'Playback error: ' + error.message;
+                        loadingText.classList.add('show');
+                        setTimeout(() => loadingText.classList.remove('show'), 3000);
+                    }
+                    ctrlIcon.classList.remove('fa-pause');
+                    ctrlIcon.classList.add('fa-play');
+                    songImage.classList.remove('playing');
+                    if (rotatingDisc) { // Ensure disc is hidden on error
+                        rotatingDisc.classList.remove('popped-out');
+                        rotatingDisc.style.animationPlayState = 'paused';
+                    }
+                    isPlaying = false;
+                });
         }
     }
 }
