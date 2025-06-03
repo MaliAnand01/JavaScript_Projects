@@ -121,4 +121,12 @@ Experience music seamlessly with Vibe Box, a sleek and intuitive player built wi
 
 ---
 
+## 🧮 Calculator App
+
+A modern, responsive calculator application that handles basic arithmetic operations. Built with HTML, CSS (with responsive design and dark/light mode theming), and JavaScript for dynamic calculations, it provides a user-friendly and visually appealing experience.
+
+🔗 **Live Demo**: [Calculator App](https://malianand01.github.io/JavaScript_Projects/Calculator/index.html)
+
+---
+
 📌 **More projects coming soon... Stay tuned!**

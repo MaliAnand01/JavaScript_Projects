@@ -1,0 +1,227 @@
+:root {
+    /* Light Mode by default */
+    --calculator-bg: #f0f0f0;
+    --display-text-color: #333;
+    --button-text-color: #333;
+    --button-shadow-light: rgba(255, 255, 255, 0.8);
+    --button-shadow-dark: rgba(0, 0, 0, 0.1);
+    --operator-bg: #add8e6;
+    --equal-button-bg: #a0d6b4;
+    --special-button-bg: #d3d3d3;
+    --hover-bg: rgba(0, 0, 0, 0.05);
+    --container-bg: #e3f9ff;
+    --calculator-shadow: rgba(0, 0, 0, 0.15);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark Mode Overrides */
+        --calculator-bg: #3a4452;
+        --display-text-color: #fff;
+        --button-text-color: #fff;
+        --button-shadow-light: rgba(255, 255, 255, 0.1);
+        --equal-button-bg: #4CAF50;
+        --button-shadow-dark: rgba(0, 0, 0, 0.2);
+        --operator-bg: #ff7f50;
+        --special-button-bg: #5b626e;
+        --hover-bg: rgba(255, 255, 255, 0.05);
+        --container-bg: #282c34;
+        --calculator-shadow: rgba(0, 0, 0, 0.4);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--container-bg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.container h1{
+    color: var(--display-text-color);
+    margin-bottom: 30px;
+}
+
+.calculator {
+    background: var(--calculator-bg);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px var(--calculator-shadow);
+    width: 100%;
+    max-width: 320px;
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+    overflow: auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid var(--special-button-bg);
+}
+
+form .display #displayScreen {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 8px;
+    font-size: 38px;
+    color: var(--display-text-color);
+    cursor: default;
+    text-align: right;
+    flex: 1;
+    padding: 8px;
+    min-height: 50px;
+}
+
+form .buttons-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.buttons-grid > input[type="button"],
+.buttons-grid > button {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 8px;
+    box-shadow: -6px -6px 12px var(--button-shadow-light), 4px 4px 12px var(--button-shadow-dark);
+    background: transparent;
+    font-size: 20px;
+    color: var(--button-text-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+
+.buttons-grid > input[type="button"]:active,
+.buttons-grid > button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 0px 5px var(--button-shadow-dark);
+}
+
+.buttons-grid input[value="+"],
+.buttons-grid input[value="-"],
+.buttons-grid input[value="×"],
+.buttons-grid input[value="÷"] {
+    background: var(--operator-bg);
+    color: var(--button-text-color);
+}
+
+.buttons-grid input[value="="]{
+    grid-column: span 2;
+    background: var(--equal-button-bg);
+}
+
+.buttons-grid input[value="AC"],
+.buttons-grid button[value="DE"],
+.buttons-grid input[value="%"] {
+    background: var(--special-button-bg);
+}
+
+#del {
+    font-size: 20px;
+}
+
+/* Responsiveness */
+
+@media (min-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .calculator {
+        padding: 25px;
+        max-width: 400px;
+        box-shadow: 0px 0px 20px var(--calculator-shadow);
+    }
+
+    form .display {
+        margin-bottom: 20px;
+    }
+
+    form .display #displayScreen {
+        font-size: 45px;
+        padding: 10px;
+        min-height: 60px;
+        border-radius: 10px;
+    }
+
+    form .buttons-grid {
+        gap: 10px;
+    }
+
+    .buttons-grid > input[type="button"],
+    .buttons-grid > button {
+        padding: 20px 0;
+        font-size: 24px;
+        border-radius: 10px;
+        box-shadow: -8px -8px 15px var(--button-shadow-light), 5px 5px 15px var(--button-shadow-dark);
+    }
+
+    .buttons-grid > input[type="button"]:active,
+    .buttons-grid > button:active {
+        transform: translateY(2px);
+    }
+
+    #del {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding: 30px;
+    }
+
+    .calculator {
+        padding: 30px;
+        max-width: 450px;
+        box-shadow: 0px 0px 25px var(--calculator-shadow);
+    }
+
+    form .display {
+        margin-bottom: 25px;
+    }
+
+    form .display #displayScreen {
+        font-size: 55px;
+        padding: 12px;
+        min-height: 70px;
+    }
+
+    form .buttons-grid {
+        gap: 12px;
+    }
+
+    .buttons-grid > input[type="button"],
+    .buttons-grid > button {
+        padding: 22px 0;
+        font-size: 28px;
+    }
+
+    #del {
+        font-size: 28px;
+    }
+}
