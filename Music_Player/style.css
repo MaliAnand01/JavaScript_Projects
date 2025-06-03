@@ -452,13 +452,31 @@ nav .circle:hover {
   }
 
   .song-img {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
   }
 
   .playlist-dropdown {
     min-width: 280px;
   }
+
+  /* Album Art Container */
+.album-art-container {
+  width: 220px;
+  height: 220px;
+}
+
+/* Rotating Disc */
+.rotating-disc {
+  width: 200px; 
+  height: 200px;
+}
+
+
+.rotating-disc.popped-out {
+  top: 75px;
+  transform: scale(1.1);
+}
 }
 
 /* @media (prefers-color-scheme: dark) {
