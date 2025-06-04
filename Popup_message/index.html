@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/popup.png" type="image/x-icon">
+    <title>Popup using Js</title>
+</head>
+<body>
+    <div class="container">
+        <button type="submit" class="btn" id="submitBtn">Submit</button>
+        <div class="popup" id="popup">
+            <img src="img/check.png" alt="Check">
+            <h2>Thank You!</h2>
+            <p>Your details has been succeccfully submitted. Thanks!</p>
+            <button type="button" id="okBtn">Ok</button>
+        </div>
+    </div>
+
+    <script>
+        const submitBtn = document.querySelector('#submitBtn');
+        const okBtn = document.querySelector('#okBtn');
+        const popup = document.querySelector('#popup');
+
+        function openPopup(){
+            popup.classList.add("open-popup")
+        }
+
+        function closePopup(){
+            popup.classList.remove("open-popup")
+        }
+
+        submitBtn.addEventListener('click', openPopup)
+        okBtn.addEventListener('click', closePopup)
+    </script>
+</body>
+</html>
