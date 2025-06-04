@@ -129,4 +129,20 @@ A modern, responsive calculator application that handles basic arithmetic operat
 
 ---
 
+## 💬 Popup Message  
+
+Popup message on submit event using HTML, CSS and JavaScript with smooth transition.
+
+🔗 **Live Demo**: [Popup](https://malianand01.github.io/JavaScript_Projects/Popup_message/index.html)
+
+---
+
+## 👁️ Toggle Password
+
+Show and Hide password by toggle swtich using HTML, CSS and JavaScript. 
+
+🔗 **Live Demo**: [Calculator App](https://malianand01.github.io/JavaScript_Projects/hide_show_password/index.html)
+
+---
+
 📌 **More projects coming soon... Stay tuned!**
