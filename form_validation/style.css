@@ -1,0 +1,227 @@
+:root {
+  /* Dark Mode Variables */
+  --primary-background: #141a34;
+  --secondary-background: #212a54;
+  --form-background: #fff;
+  --input-border: #999;
+  --input-text: #333;
+  --error-color: red;
+  --success-color: seagreen;
+  --popup-background: #101010;
+  --popup-icon-color: #09de02;
+  --popup-button-hover: #09de02c3;
+  --white-text: #fff;
+  --button-border: rgba(255, 255, 255, 0.7);
+  --overlay-background: rgba(0, 0, 0, 0.687);
+  --box-shadow-dark: rgba(0, 0, 0, 0.5);
+  --box-shadow-light: rgba(0, 0, 0, 0.2);
+  --submit-button-bg: var(--primary-background);
+  --submit-button-hover-bg: var(--secondary-background);
+  --submit-button-text: var(--white-text);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Light Mode Variables */
+    --primary-background: #e0e0e0;
+    --secondary-background: #c0c0c0;
+    --form-background: #f8f8f8;
+    --input-border: #aaa;
+    --input-text: #666;
+    --error-color: #d32f2f;
+    --success-color: #388e3c;
+    --popup-background: #f0f0f0;
+    --popup-icon-color: #1a73e8;
+    --popup-button-hover: #1a73e8c3;
+    --white-text: #333;
+    --button-border: rgba(0, 0, 0, 0.3);
+    --overlay-background: rgba(255, 255, 255, 0.687);
+    --box-shadow-dark: rgba(0, 0, 0, 0.3);
+    --box-shadow-light: rgba(0, 0, 0, 0.1);
+    --submit-button-bg: #4CAF50;
+    --submit-button-hover-bg: #45a049;
+    --submit-button-text: #FFFFFF;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: var(--primary-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container form {
+  width: 90%;
+  max-width: 500px;
+  padding: 50px 30px 20px;
+  background-color: var(--form-background);
+  border-radius: 8px;
+  box-shadow: 0 4px 30px var(--box-shadow-dark);
+  position: relative;
+}
+
+.fa-paper-plane {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--form-background);
+  font-size: 26px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--box-shadow-dark);
+}
+
+.input-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  position: relative;
+}
+
+.input-group label {
+  flex-basis: 28%;
+}
+
+.input-group input,
+.input-group textarea {
+  flex-basis: 68%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--input-border);
+  color: var(--input-text);
+  font-size: 16px;
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
+.input-group span {
+  position: absolute;
+  bottom: 12px;
+  right: 17px;
+  font-size: 14px;
+  color: var(--error-color);
+}
+
+#submit-error {
+  color: var(--error-color);
+}
+
+form button {
+  background: var(--submit-button-bg);
+  color: var(--submit-button-text);
+  border-radius: 4px;
+  border: 1px solid var(--button-border);
+  padding: 10px 40px;
+  outline: 0;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto 10px;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: var(--submit-button-hover-bg);
+}
+
+.input-group span i {
+  color: var(--success-color);
+}
+
+.popup {
+  position: fixed;
+  width: 400px;
+  background: var(--popup-background);
+  border-radius: 10px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0px 30px 30px;
+  color: var(--white-text);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s ease-in-out;
+  z-index: 1000;
+}
+
+.open-popup {
+  opacity: 1;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  pointer-events: auto;
+}
+
+.popup i {
+  font-size: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  background: var(--popup-background);
+  color: var(--popup-icon-color);
+  box-shadow: 0 2px 5px var(--box-shadow-light);
+}
+
+.popup h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+
+.popup p {
+  margin-bottom: 20px;
+}
+
+.popup button {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: var(--popup-icon-color);
+  color: var(--white-text);
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px var(--box-shadow-light);
+}
+
+.popup button:hover {
+  background: var(--popup-button-hover);
+  transition: background 0.3s ease;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--overlay-background);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.show-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}

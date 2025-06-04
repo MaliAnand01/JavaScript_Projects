@@ -145,4 +145,20 @@ Show and Hide password by toggle swtich using HTML, CSS and JavaScript.
 
 ---
 
+## 📝 Form Validation
+
+A robust and user-friendly form validation project built with HTML, CSS, and JavaScript. This project demonstrates how to implement client-side validation for common form fields, providing instant feedback to users and ensuring data integrity before submission. It's designed to be easily integrated into any web form.
+
+### ✨ Features
+
+* **Real-time Validation:** Provides immediate feedback as users type, guiding them to correct invalid inputs.
+* **Customizable Rules:** Easily set up validation rules for various input types like email, password, and text fields.
+* **Clear Error Messages:** Displays concise and helpful error messages for invalid entries.
+* **Responsive Design:** Ensures the form looks great and functions well on all devices.
+* **Popup Confirmation:** Shows a popup message of confirmation about form submission when submitted.
+
+🔗 **Live Demo**: [Form Validation](https://malianand01.github.io/JavaScript_Projects/form_validation/index.html)
+
+---
+
 📌 **More projects coming soon... Stay tuned!**
