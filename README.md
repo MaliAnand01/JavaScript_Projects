@@ -161,4 +161,12 @@ A robust and user-friendly form validation project built with HTML, CSS, and Jav
 
 ---
 
+## 📜 Horizontal Scroll Image Gallery
+
+This project showcases a responsive horizontal image gallery crafted with HTML, CSS, and vanilla JavaScript. It offers a straightforward and engaging way to display images with smooth horizontal scrolling, ensuring a great user experience on any device
+
+🔗 **Live Demo**: [Calculator App](https://malianand01.github.io/JavaScript_Projects/Horizontal_Scrolling_Gallery/index.html)
+
+---
+
 📌 **More projects coming soon... Stay tuned!**
