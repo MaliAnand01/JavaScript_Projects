@@ -161,11 +161,20 @@ A robust and user-friendly form validation project built with HTML, CSS, and Jav
 
 ---
 
+## 📧 Email Subscription Form
+
+This project features a responsive email subscription form built with HTML, CSS, and vanilla JavaScript. It includes an email submission feature with a toast notification for confirmation and automatically adds submitted emails to a Google Sheet using Google Apps Script and the JavaScript Fetch API.
+
+🔗 **Live Demo**: [Email Subscription Form](https://malianand01.github.io/JavaScript_Projects/Email_Subscription_Form/index.html)
+
+
+---
+
 ## 📜 Horizontal Scroll Image Gallery
 
-This project showcases a responsive horizontal image gallery crafted with HTML, CSS, and vanilla JavaScript. It offers a straightforward and engaging way to display images with smooth horizontal scrolling, ensuring a great user experience on any device
+This project showcases a responsive horizontal image gallery crafted with HTML, CSS, and vanilla JavaScript. It offers a straightforward and engaging way to display images with smooth horizontal scrolling, ensuring a great user experience on any device.
 
-🔗 **Live Demo**: [Calculator App](https://malianand01.github.io/JavaScript_Projects/Horizontal_Scrolling_Gallery/index.html)
+🔗 **Live Demo**: [Horizontal Scroll](https://malianand01.github.io/JavaScript_Projects/Horizontal_Scrolling_Gallery/index.html)
 
 ---
 
