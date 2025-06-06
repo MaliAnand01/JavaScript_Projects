@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selector{
+    margin-top: -100px;
+    width: 350px;
+    position: relative;
+}
+
+#selectField{
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#arrowIcon{
+    width: 20px;
+    transition: transform 0.3s ease-in;
+}
+
+#arrowIcon.rotate{
+    transform: rotate(180deg);
+}
+
+#list{
+    position: absolute;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    top: 100%;
+    left: 0;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease-in;
+    transform: translateY(-15px);
+    z-index: 10;
+    max-height: 0;
+}
+
+#list.show{
+    max-height: 350px;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#list .options{
+    width: 100%;
+    padding: 15px 0 15px 25px;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#list .options img{
+    width: 25px;
+}
+
+.options:hover{
+    background: rgba(147, 240, 243, 0.5);
+}
