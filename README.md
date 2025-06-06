@@ -10,6 +10,29 @@ A collection of beginner-friendly JavaScript projects built to practice **DOM ma
 
 ---
 
+## Project Index
+
+* [🌦️ Weather App](#-weather-app)
+* [✅ To Do List App](#-to-do-list-app)
+* [🔒 Secure Password Generator](#-secure-password-generator)
+* [⏱️ Stopwatch](#️stopwatch)
+* [📒 Notes App](#-notes-app)
+* [📅 Age Calculator](#-age-calculator)
+* [📱 QR Code Generator](#-qr-code-generator)
+* [🔔 Toast Notification](#-toast-notification)
+* [🎶 Vibe Box | Music Player](#-vibe-box--music-player)
+* [🧮 Calculator App](#-calculator-app)
+* [💬 Popup Message](#-popup-message)
+* [👁️ Toggle Password](#️-toggle-password)
+* [📝 Form Validation](#-form-validation)
+* [📧 Email Subscription Form](#-email-subscription-form)
+* [📜 Horizontal Scroll Image Gallery](#-horizontal-scroll-image-gallery)
+* [🔒 Password Strength Indicator](#-password-strength-indicator)
+* [🗣️ Text to Speech Converter](#️-text-to-speech-converter)
+* [🆕 Website Launching Page](#-website-launching-page)
+
+---
+
 ## 🔧 Tech Stack
 
 - **HTML5**
