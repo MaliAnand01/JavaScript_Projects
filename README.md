@@ -195,5 +195,14 @@ This project is a **Text-to-Speech Converter** built using **HTML**, **CSS**, an
 
 ---
 
+## 🆕 Website Launching Page
+
+This project is a Website Launching/Coming Soon Page built using HTML, CSS, and vanilla JavaScript. It includes an engaging countdown timer to build excitement for your site's launch. The design is modern and responsive, ensuring a smooth experience on all devices.
+
+🔗 **Live Demo**: [Website Launching Page](https://malianand01.github.io/JavaScript_Projects/launching_website/index.html)
+
+
+---
+
 
 📌 **More projects coming soon... Stay tuned!**
