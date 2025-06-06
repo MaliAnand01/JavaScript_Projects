@@ -10,6 +10,29 @@ A collection of beginner-friendly JavaScript projects built to practice **DOM ma
 
 ---
 
+## Project Index
+
+* [🌦️ Weather App](#-weather-app)
+* [✅ To Do List App](#-to-do-list-app)
+* [🔒 Secure Password Generator](#-secure-password-generator)
+* [⏱️ Stopwatch](#️stopwatch)
+* [📒 Notes App](#-notes-app)
+* [📅 Age Calculator](#-age-calculator)
+* [📱 QR Code Generator](#-qr-code-generator)
+* [🔔 Toast Notification](#-toast-notification)
+* [🎶 Vibe Box | Music Player](#-vibe-box--music-player)
+* [🧮 Calculator App](#-calculator-app)
+* [💬 Popup Message](#-popup-message)
+* [👁️ Toggle Password](#️-toggle-password)
+* [📝 Form Validation](#-form-validation)
+* [📧 Email Subscription Form](#-email-subscription-form)
+* [📜 Horizontal Scroll Image Gallery](#-horizontal-scroll-image-gallery)
+* [🔒 Password Strength Indicator](#-password-strength-indicator)
+* [🗣️ Text to Speech Converter](#️-text-to-speech-converter)
+* [🆕 Website Launching Page](#-website-launching-page)
+
+---
+
 ## 🔧 Tech Stack
 
 - **HTML5**
@@ -191,6 +214,15 @@ Here's a password strength indicator to help you choose good passwords. It quick
 This project is a **Text-to-Speech Converter** built using **HTML**, **CSS**, and **vanilla JavaScript**. It allows users to input text and convert it directly into speech within the browser. The design is clean and responsive, ensuring a great user experience across devices. No external libraries are used, making it lightweight and easy to customize.
 
 🔗 **Live Demo**: [Text to Speech](https://malianand01.github.io/JavaScript_Projects/text_to_speech/index.html)
+
+
+---
+
+## 🆕 Website Launching Page
+
+This project is a Website Launching/Coming Soon Page built using HTML, CSS, and vanilla JavaScript. It includes an engaging countdown timer to build excitement for your site's launch. The design is modern and responsive, ensuring a smooth experience on all devices.
+
+🔗 **Live Demo**: [Website Launching Page](https://malianand01.github.io/JavaScript_Projects/launching_website/index.html)
 
 
 ---
