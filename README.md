@@ -186,4 +186,14 @@ Here's a password strength indicator to help you choose good passwords. It quick
 
 ---
 
+## 🗣️ Text to Speech Converter
+
+This project is a **Text-to-Speech Converter** built using **HTML**, **CSS**, and **vanilla JavaScript**. It allows users to input text and convert it directly into speech within the browser. The design is clean and responsive, ensuring a great user experience across devices. No external libraries are used, making it lightweight and easy to customize.
+
+🔗 **Live Demo**: [Email Subscription Form](https://malianand01.github.io/JavaScript_Projects/text_to_speech/index.html)
+
+
+---
+
+
 📌 **More projects coming soon... Stay tuned!**
