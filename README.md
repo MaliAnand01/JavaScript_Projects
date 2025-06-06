@@ -178,4 +178,12 @@ This project showcases a responsive horizontal image gallery crafted with HTML, 
 
 ---
 
+## 🔒 Password Strength Indicator
+
+Here's a password strength indicator to help you choose good passwords. It quickly tells you if your password is weak, medium, or strong, making online security easier.
+
+🔗 **Live Demo**: [Password Generator](https://malianand01.github.io/JavaScript_Projects/password_strength/index.html)
+
+---
+
 📌 **More projects coming soon... Stay tuned!**
