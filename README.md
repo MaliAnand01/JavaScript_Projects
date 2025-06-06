@@ -227,5 +227,29 @@ This project is a Website Launching/Coming Soon Page built using HTML, CSS, and 
 
 ---
 
+## 🗓️ Mini Calendar
+
+A compact **mini calendar** built with HTML, CSS, and JavaScript. This project displays the current date, day, month, and year, offering a clean and user-friendly way to quickly reference calendar information without complex features.
+
+🔗 **Live Demo**: [Mini Calendar](https://malianand01.github.io/JavaScript_Projects/mini_calendar/index.html)
+
+---
+
+## 🖼️ Image Transition on Mouse Event
+
+This project demonstrates a dynamic **image transition effect** triggered by mouse events, built using HTML, CSS, and JavaScript. It features an image that subtly changes or transforms when the mouse hovers over it, adding an engaging visual element to web pages.
+
+🔗 **Live Demo**: [Image Transition on Mouse Event](https://malianand01.github.io/JavaScript_Projects/image_transition/index.html)
+
+---
+
+## 🔽 Custom Select Dropdown Menu
+
+A fully customizable **select dropdown menu** implemented with HTML, CSS, and JavaScript. This project replaces the browser's default select element with a custom-styled version, offering smooth transitions and enhanced user experience for selecting options. It's designed to be flexible and visually appealing across different designs.
+
+🔗 **Live Demo**: [Custom Select Dropdown Menu](https://malianand01.github.io/JavaScript_Projects/custom_select_menu/index.html)
+
+---
+
 
 📌 **More projects coming soon... Stay tuned!**
