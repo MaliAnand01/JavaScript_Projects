@@ -30,6 +30,9 @@ A collection of beginner-friendly JavaScript projects built to practice **DOM ma
 * [🔒 Password Strength Indicator](#-password-strength-indicator)
 * [🗣️ Text to Speech Converter](#️-text-to-speech-converter)
 * [🆕 Website Launching Page](#-website-launching-page)
+* [🗓️ Mini Calendar](#️-mini-calendar)
+* [🖼️ Image Transition on Mouse Event](#️-image-transition-on-mouse-event)
+* [🔽 Custom Select Dropdown Menu](#-custom-select-dropdown-menu)
 
 ---
 
