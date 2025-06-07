@@ -20,7 +20,7 @@ A collection of beginner-friendly JavaScript projects built to practice **DOM ma
 * [📅 Age Calculator](#-age-calculator)
 * [📱 QR Code Generator](#-qr-code-generator)
 * [🔔 Toast Notification](#-toast-notification)
-* [🎶 Vibe Box | Music Player](#-vibe-box--music-player)
+* [🎶 Vibe Box Music Player](#-vibe-box--music-player)
 * [🧮 Calculator App](#-calculator-app)
 * [💬 Popup Message](#-popup-message)
 * [👁️ Toggle Password](#️-toggle-password)
@@ -30,6 +30,9 @@ A collection of beginner-friendly JavaScript projects built to practice **DOM ma
 * [🔒 Password Strength Indicator](#-password-strength-indicator)
 * [🗣️ Text to Speech Converter](#️-text-to-speech-converter)
 * [🆕 Website Launching Page](#-website-launching-page)
+* [🗓️ Mini Calendar](#️-mini-calendar)
+* [🖼️ Image Transition on Mouse Event](#️-image-transition-on-mouse-event)
+* [🔽 Custom Select Dropdown Menu](#-custom-select-dropdown-menu)
 
 ---
 
@@ -126,7 +129,7 @@ A lightweight and customizable Toast Notification component that displays brief 
 
 Experience music seamlessly with Vibe Box, a sleek and intuitive player built with vanilla JavaScript and CSS. Enjoy essential playback controls, a smart dark mode, and a responsive design.
 
-🔗 **Live Demo**: [Vibe Box | Music Player](https://malianand01.github.io/JavaScript_Projects/Music_Player/index.html)
+🔗 **Live Demo**: [Vibe Box Music Player](https://malianand01.github.io/JavaScript_Projects/Music_Player/index.html)
 
 ### ✨ Features
 
@@ -224,6 +227,30 @@ This project is a Website Launching/Coming Soon Page built using HTML, CSS, and 
 
 🔗 **Live Demo**: [Website Launching Page](https://malianand01.github.io/JavaScript_Projects/launching_website/index.html)
 
+
+---
+
+## 🗓️ Mini Calendar
+
+A compact **mini calendar** built with HTML, CSS, and JavaScript. This project displays the current date, day, month, and year, offering a clean and user-friendly way to quickly reference calendar information without complex features.
+
+🔗 **Live Demo**: [Mini Calendar](https://malianand01.github.io/JavaScript_Projects/mini_calendar/index.html)
+
+---
+
+## 🖼️ Image Transition on Mouse Event
+
+This project demonstrates a dynamic **image transition effect** triggered by mouse events, built using HTML, CSS, and JavaScript. It features an image that subtly changes or transforms when the mouse hovers over it, adding an engaging visual element to web pages.
+
+🔗 **Live Demo**: [Image Transition on Mouse Event](https://malianand01.github.io/JavaScript_Projects/image_transition/index.html)
+
+---
+
+## 🔽 Custom Select Dropdown Menu
+
+A fully customizable **select dropdown menu** implemented with HTML, CSS, and JavaScript. This project replaces the browser's default select element with a custom-styled version, offering smooth transitions and enhanced user experience for selecting options. It's designed to be flexible and visually appealing across different designs.
+
+🔗 **Live Demo**: [Custom Select Dropdown Menu](https://malianand01.github.io/JavaScript_Projects/custom_select_menu/index.html)
 
 ---
 
