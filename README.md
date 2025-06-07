@@ -33,6 +33,7 @@ A collection of beginner-friendly JavaScript projects built to practice **DOM ma
 * [🗓️ Mini Calendar](#️-mini-calendar)
 * [🖼️ Image Transition on Mouse Event](#️-image-transition-on-mouse-event)
 * [🔽 Custom Select Dropdown Menu](#-custom-select-dropdown-menu)
+* [⭕ Circular Progress Bar](#-circular-progress-bar)
 
 ---
 
@@ -251,6 +252,14 @@ This project demonstrates a dynamic **image transition effect** triggered by mou
 A fully customizable **select dropdown menu** implemented with HTML, CSS, and JavaScript. This project replaces the browser's default select element with a custom-styled version, offering smooth transitions and enhanced user experience for selecting options. It's designed to be flexible and visually appealing across different designs.
 
 🔗 **Live Demo**: [Custom Select Dropdown Menu](https://malianand01.github.io/JavaScript_Projects/custom_select_menu/index.html)
+
+---
+
+## ⭕ Circular Progress Bar
+
+Customizable and responsive circular progress bars created with HTML, CSS, and JavaScript. This sleek, animated component visually represents progress, ideal for dashboards and loading indicators.
+
+🔗 **Live Demo**: [Circular Progress Bar](https://malianand01.github.io/JavaScript_Projects/circular_progress_bar/index.html)
 
 ---
 
