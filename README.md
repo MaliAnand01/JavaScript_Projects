@@ -34,6 +34,8 @@ A collection of beginner-friendly JavaScript projects built to practice **DOM ma
 * [🖼️ Image Transition on Mouse Event](#️-image-transition-on-mouse-event)
 * [🔽 Custom Select Dropdown Menu](#-custom-select-dropdown-menu)
 * [⭕ Circular Progress Bar](#-circular-progress-bar)
+* [🫳 Drag and Drop](#-drag-and-drop)
+* [🕛 Digital Clock with custom themes](#-digital-clock-with-custom-themes)
 
 ---
 
@@ -262,6 +264,24 @@ Customizable and responsive circular progress bars created with HTML, CSS, and J
 🔗 **Live Demo**: [Circular Progress Bar](https://malianand01.github.io/JavaScript_Projects/circular_progress_bar/index.html)
 
 ---
+
+## 🫳 Drag and Drop
+
+A simple and interactive drag-and-drop implementation built with HTML, CSS, and JavaScript. Ideal for interactive web applications and user-friendly interfaces.
+
+🔗 **Live Demo**: [Drag and Drop](https://malianand01.github.io/JavaScript_Projects/drag_and_drop/index.html)
+
+---
+
+## 🕛 Digital Clock with Custom Themes
+
+A modern, responsive digital clock built with HTML, CSS, and JavaScript. Displays real-time time with 8 unique theme options, offering a sleek and aesthetically pleasing interface for any device.
+
+🔗 **Live Demo**: [Digital Clock](https://malianand01.github.io/JavaScript_Projects/digital_clock/index.html)
+
+---
+
+
 
 
 📌 **More projects coming soon... Stay tuned!**
