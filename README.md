@@ -20,7 +20,7 @@ A collection of beginner-friendly JavaScript projects built to practice **DOM ma
 * [📅 Age Calculator](#-age-calculator)
 * [📱 QR Code Generator](#-qr-code-generator)
 * [🔔 Toast Notification](#-toast-notification)
-* [🎶 Vibe Box | Music Player](#-vibe-box--music-player)
+* [🎶 Vibe Box Music Player](#-vibe-box--music-player)
 * [🧮 Calculator App](#-calculator-app)
 * [💬 Popup Message](#-popup-message)
 * [👁️ Toggle Password](#️-toggle-password)
@@ -129,7 +129,7 @@ A lightweight and customizable Toast Notification component that displays brief 
 
 Experience music seamlessly with Vibe Box, a sleek and intuitive player built with vanilla JavaScript and CSS. Enjoy essential playback controls, a smart dark mode, and a responsive design.
 
-🔗 **Live Demo**: [Vibe Box | Music Player](https://malianand01.github.io/JavaScript_Projects/Music_Player/index.html)
+🔗 **Live Demo**: [Vibe Box Music Player](https://malianand01.github.io/JavaScript_Projects/Music_Player/index.html)
 
 ### ✨ Features
 
