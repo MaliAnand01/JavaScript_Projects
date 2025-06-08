@@ -36,6 +36,7 @@ A collection of beginner-friendly JavaScript projects built to practice **DOM ma
 * [⭕ Circular Progress Bar](#-circular-progress-bar)
 * [🫳 Drag and Drop](#-drag-and-drop)
 * [🕛 Digital Clock with custom themes](#-digital-clock-with-custom-themes)
+* [🔍 Image Search Engine](#-image-search-engine)
 
 ---
 
@@ -275,12 +276,19 @@ A simple and interactive drag-and-drop implementation built with HTML, CSS, and 
 
 ## 🕛 Digital Clock with Custom Themes
 
-A modern, responsive digital clock built with HTML, CSS, and JavaScript. Displays real-time time with 8 unique theme options, offering a sleek and aesthetically pleasing interface for any device.
+A modern, responsive digital clock built with **HTML, CSS**, and **JavaScript**. Displays real-time time with 8 unique theme options, offering a sleek and aesthetically pleasing interface for any device.
 
 🔗 **Live Demo**: [Digital Clock](https://malianand01.github.io/JavaScript_Projects/digital_clock/index.html)
 
 ---
 
+## 🔍 Image Search Engine
+
+An image search engine built with **HTML**, **CSS**, and **JavaScript**, featuring a **modern**, **responsive UI** that adapts seamlessly to all devices. It leverages the **Unsplash API** to fetch high-quality images, providing a fast and visually appealing search experience.
+
+🔗 **Live Demo**: [Image Search Engine](https://malianand01.github.io/JavaScript_Projects/image_search_engine/index.html)
+
+---
 
 
 
