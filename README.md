@@ -37,6 +37,8 @@ A collection of beginner-friendly JavaScript projects built to practice **DOM ma
 * [🫳 Drag and Drop](#-drag-and-drop)
 * [🕛 Digital Clock with custom themes](#-digital-clock-with-custom-themes)
 * [🔍 Image Search Engine](#-image-search-engine)
+* [🆕 3d Image hover effect](https://malianand01.github.io/JavaScript_Projects/image_css_transition/index.html)
+* [🪙 CrypTech Home Page](#-cryptocurrency-home-page)
 
 ---
 
