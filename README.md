@@ -290,6 +290,15 @@ An image search engine built with **HTML**, **CSS**, and **JavaScript**, featuri
 
 ---
 
+## 🪙 Cryptocurrency home page
+
+This is the homepage for a simple cryptocurrency site, built with HTML, CSS, and JavaScript. It features a modern, responsive UI and uses jQuery AJAX requests to display live prices for Bitcoin, Ethereum, and Dogecoin via an API.
+
+🔗 **Live Demo**: [CrypTech Home Page](https://malianand01.github.io/JavaScript_Projects/crypto_price_site/index.html)
+
+---
+
+
 
 
 📌 **More projects coming soon... Stay tuned!**
