@@ -39,6 +39,7 @@ A collection of beginner-friendly JavaScript projects built to practice **DOM ma
 * [🔍 Image Search Engine](#-image-search-engine)
 * [🆕 3d Image hover effect](https://malianand01.github.io/JavaScript_Projects/image_css_transition/index.html)
 * [🪙 CrypTech Home Page](#-cryptocurrency-home-page)
+* [👕 Basic Product Page](#-basic-product-page)
 
 ---
 
@@ -297,6 +298,14 @@ An image search engine built with **HTML**, **CSS**, and **JavaScript**, featuri
 This is the homepage for a simple cryptocurrency site, built with HTML, CSS, and JavaScript. It features a modern, responsive UI and uses jQuery AJAX requests to display live prices for Bitcoin, Ethereum, and Dogecoin via an API.
 
 🔗 **Live Demo**: [CrypTech Home Page](https://malianand01.github.io/JavaScript_Projects/crypto_price_site/index.html)
+
+---
+
+## 👕 Basic Product Page
+
+This is a basic product page using HTML, CSS and JS.
+
+🔗 **Live Demo**: [CrypTech Home Page](https://malianand01.github.io/JavaScript_Projects/product_page/index.html)
 
 ---
 
