@@ -305,7 +305,15 @@ This is the homepage for a simple cryptocurrency site, built with HTML, CSS, and
 
 This is a basic product page using HTML, CSS and JS.
 
-🔗 **Live Demo**: [CrypTech Home Page](https://malianand01.github.io/JavaScript_Projects/product_page/index.html)
+🔗 **Live Demo**: [Product page](https://malianand01.github.io/JavaScript_Projects/product_page/index.html)
+
+---
+
+## 🛋️ Vue Lighting home page
+
+This is a basic Lighting brand home page using HTML, CSS and JS.
+
+🔗 **Live Demo**: [Lighting home page](https://malianand01.github.io/JavaScript_Projects/Vue_home_page/index.html)
 
 ---
 
