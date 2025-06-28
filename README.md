@@ -88,7 +88,7 @@ A simple Stopwatch with start, stop and reset buttons using HTML, CSS and JavaSc
 A simple and intuitive Notes App built with HTML, CSS, and JavaScript. This project allows users to create, edit, and delete notes efficiently with a clean and responsive design. It's ideal for quick note-taking and works seamlessly across all screen sizes—desktop, tablet, and mobile.
 
 ## ✨ Features
-📝 Create Notes – Quickly jot down your thoughts or tasks.
+📝 Create Notes – Quickly note down your thoughts or tasks.
 
 ✏️ Edit Notes – Update your existing notes with ease.
 
